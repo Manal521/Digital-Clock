@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(5, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 3rem;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 0 1rem;
+    background: linear-gradient( #197f9e, #ffffff, #444141);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1:hover {
+    border-bottom: 3px solid #d3cbcb;
+    cursor: pointer;
+    margin-bottom: 80px;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+    padding: 10px;
+}
+
+h2 {
+    margin-top: 3rem;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 0 1rem;
+    background: linear-gradient( #197f9e, #ffffff, #6e6868);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+h2:hover {
+    letter-spacing: 5px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+        /* Smaller font size for small devices */
+    }
+    .clock {
+        font-size: 3rem;
+        /* Smaller font size for small devices */
+        padding: 15px 30px;
+    }
+}
